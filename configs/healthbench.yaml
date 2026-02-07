@@ -1,0 +1,7 @@
+dataset: healthbench
+task: qa
+input_fields:
+  - question
+output_field: reference_answer
+metrics:
+  - rougeL

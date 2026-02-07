@@ -1,0 +1,8 @@
+dataset: medqa
+task: mcq
+input_fields:
+  - question
+  - options
+output_field: answer
+metrics:
+  - accuracy
