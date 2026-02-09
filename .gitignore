@@ -1,0 +1,23 @@
+# ===== HPC / experiment outputs =====
+outputs/
+logs/
+runs/
+wandb/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Data (too large for git) =====
+data/
+datasets/
